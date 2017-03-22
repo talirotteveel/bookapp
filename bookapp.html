@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+<script src="subject.js"> </script>
+<script src="user.js"> </script>
+<script src="credentials.js"> </script>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="background.css"/>  
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <!-- Header -->
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                </button>
+
+                <a href="bookapp.html" class="navbar-brand"> Book Finder</a>
+            </div>
+            <!-- Menu Items -->
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="materials.html">Materials</span></a></li>
+
+
+                    <!-- drop down menu-->
+                    <li class="dropdown">
+                        <a href="2" class="dropdown-toggle" data-toggle="dropdown">Profile<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="friends.html">Friends</a></li>
+                            <li><a href="wishlist.html">Wishlist</a></li>
+                            <li><a href="settings.html">Settings</a></li>
+                            <li><a href="certifications.html">Certifications</a></li>
+                            <li role- "seperator" class="divider"></li>
+                            <li><a href="profile.html"> MyProfile </a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="views/register.html">Register</a></li>
+                        </ul>
+                <div class="navbar-collapse collapse">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign in</button>
+                    </form>
+                </div>
+
+               
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container" ng-app="myApp" ng-controller="myCtrl">
+        <div class="row">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="row">
+             <div class="col-md-4">
+                <h1> Getting started</h1>
+                <h4>If you're looking to learn a new programming language, find some top tech tutorials, or meet with someone
+                    who can help you learn one-on-one, you've come to the right place.</h4>
+                
+
+                <button type="button" class="btn btn-success">Learn more</button>
+             </div>
+            <div class="col-md-4">
+                <h1>Find materials</h1>
+                <h4>If you have a specific topic in mind, lets get started! We can explore online books to shop for, books available here at
+                the company, and online tutorials you can access immediately.</h4>
+           
+                <button type="button" class="btn btn-success"> <a href="materials.html" style="color: #ffffff">Go</a> </button>
+            </div>  
+
+            <div class="col-md-4">
+                <h1>Access your profile</h1>
+                <h4>Connect with friends, find out what reference materials your co-workers have, and update your wishlist!</h4>
+                <button type="button" class="btn btn-success"> 
+                 <a href="friends.html" style="color: #ffffff">Go</a>   </button>
+            </div>
+        </div>
+    </div>
+    </div>
+ 
+</body>
+
+</html>

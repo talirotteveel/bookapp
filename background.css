@@ -1,0 +1,14 @@
+body{
+    background-image:url(img/computer2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Old Standard TT';
+}
+p, div {
+    font-family: 'Old Standard TT';
+}
